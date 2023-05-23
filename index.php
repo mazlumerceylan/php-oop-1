@@ -21,5 +21,14 @@ class Movie {
   }
 }
 
+
+$movie1 = new Movie("Il padrino", "Francis Ford Coppola", 1972);
+echo $movie1->getMovieDetails();
+echo "<br/>";
+
+
+$movie2 = new Movie("Il signore degli anelli", "Peter Jackson", 2001);
+echo $movie2->getMovieDetails();
+
 ?>
 
